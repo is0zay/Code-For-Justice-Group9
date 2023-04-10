@@ -1,0 +1,193 @@
+*{
+margin:0;
+padding:0;
+font-family: sans-serif;
+}
+
+.banner{
+width:100%;
+height:100vh;
+background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth2.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.navbar{
+width:95%;
+margin: auto;
+padding: 1vh 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+width:20%;
+height:20%x;
+cursor:pointer;
+}
+
+.navbar ul li{
+list-style:none;
+display: inline-block;
+margin: 0 1.5vh;
+position:relative;
+}
+
+.navbar ul li a{
+font-size: 1.0em;
+color: #fff;
+text-transform: uppercase;
+}
+
+
+
+.content{
+width: 100%;
+position: absolute;
+top: 50%;
+left: 2%;
+transform: translateY(-50%);
+text-align: left;
+color: #fff;
+}
+
+.content h1{
+font-size: 3.8em;
+margin-top: 3%;
+color: #fff;
+}
+
+.content p{
+margin: 20px auto;
+font-size: 1.2em;
+line-height: 1.0em;
+color: #fff;
+}
+
+button {
+width: 175px;
+padding: 15px 0;
+text-align: center;
+font-size: 18px;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border: 2px solid #4cacfa;
+background: #3832f6;
+color:#fff;
+cursor: pointer;
+position: relative;
+}
+
+
+
+.footer{
+padding: 20px 0;
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+
+.footer .social{
+text-align: center;
+padding-bottom: 35px;
+color: #fff;
+}
+
+.footer .social a{
+font-size: 33px;
+color: inherit;
+width: 40px;
+height: 40px;
+text-align: center;
+border-radius: 50%;
+margin: 0 12px;
+opacity: 0.75;
+}
+
+.footer .social a:hover{
+opacity: 0.9;
+}
+
+.footer ul li a{
+color: inherit;
+text-decoration: none;
+opacity: 0.8;
+}
+
+/* Small screens (phones) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .logo {
+    width: 120px;
+    height: 60px;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar.active ul {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: #333;
+    text-align: center;
+    z-index: 999;
+  }
+  .navbar.active ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  .navbar.active ul li a {
+    color: #fff;
+    font-size: 1.2em;
+  }
+  .content h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+  }
+  .content p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  button {
+    font-size: 12px;
+    padding: 10px 0;
+    margin: 20px auto;
+  }
+  span {
+    border-radius: 15px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+  .logo {
+    width: 150px;
+    height: 75px;
+  }
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  .content h1 {
+    font-size: 4em;
+    margin-top: 100px;
+  }
+  .content p {
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+  button {
+    font-size: 12px;
+    padding: 15px 0;
+    margin: 40px auto;
+  }
+ 
+}
