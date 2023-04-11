@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    }
+html{
+    box-sizing: border-box;
+
+}
+/* below is the background*/
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)), url(https://www.connectedwomen.co/wp-content/uploads/2017/03/The-Potential-Of-Connecting-With-People.gif);
+    background-size: cover;
+    background-position: center;
+}
+/* above is the background*/
+/*below is the nav bar*/
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2vh;
+    position: relative;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button {
+    width: 20vh;
+    padding: 2vh;
+    text-align: center;
+    font-size: 18px;
+    margin: 1vh 2vh;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #4cacfa;
+    background: #3832f6;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+/*above is the nav bar*/
+
+/*below is the content*/
+body{
+    margin: 0;
+}
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+.photos{
+    height: 10vh;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    width: 22%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.card{
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.30);
+    margin: 8px;
+    height: 44vh;
+}
+.about-section{
+    padding: 5vh;
+    text-align: center;
+    color: white;
+}
+.container{
+    padding: 0 16px;
+    height: 100%;
+    color: white;
+}
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.title{
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: red;
+    background-color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.btn:hover{
+    background-color: grey;
+}
+.team{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.container h2{
+    font-size: 20px;
+}
+/*above is the content*/
+
+/*below is the footer*/
+footer{
+    padding: 5vh 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.social a{
+font-size: 8vh;
+color: inherit;
+width: 10vh;
+height: 10vh;
+margin: 0 3vh;
+opacity: 0.75;
+}
+.social a:hover{
+    opacity: 0.9;
+}
+/*above is the footer*/
