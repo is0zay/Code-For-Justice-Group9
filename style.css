@@ -8,6 +8,7 @@ font-family: sans-serif;
   width:100%;
   height:100vh;
 }
+
 .home-main {
   background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth1.jpg);
   background-size: cover;
@@ -31,7 +32,7 @@ justify-content: space-between;
 .logo{
 margin-left: .5rem;
 width: 15rem;
-height: 5rem;
+height: 2.5rem;
 cursor:pointer;
 }
 
@@ -79,28 +80,7 @@ line-height: 25px;
 color: #fff;
 }
 
-.content2{
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 2%;
-  transform: translateY(-50%);
-  text-align: left;
-  color: #fff;
-  }
 
-.content2 h1{
-  font-size: 70px;
-  margin-top: 80px;
-  color: #fff;
-  }
-  
-  .content2 p{
-  margin: 20px auto;
-  font-size: 25%;
-  line-height: 1em;
-  color: #fff;
-  }
 
 
 .blue-button {
@@ -154,13 +134,7 @@ text-decoration: none;
 opacity: 0.8;
 }
 
-.statsbanner {
-    width:100%;
-    height:100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth2.jpg);
-    background-size: cover;
-    background-position: center;
-    }
+
 
 
 /* Join Page  */
@@ -210,6 +184,38 @@ opacity: 0.8;
   height: 35vh;
   width: 50vw;
 }
+
+/* Statistics page */
+.stats-main {
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth2.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+  .content2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+    }
+  
+  .content2 h1{
+    font-size: 5rem;
+    margin-top: 1rem;
+    color: #fff;
+    }
+    
+    .content2 p{
+    margin: 20px auto;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+    }
 
 
 
