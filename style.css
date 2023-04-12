@@ -327,6 +327,10 @@ opacity: 0.8;
     color: #fff;
     }
 
+    .nothing{
+      display: none;
+    }
+
 
 
 /* Contact Page */
