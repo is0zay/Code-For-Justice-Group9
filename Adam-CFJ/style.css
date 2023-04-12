@@ -10,10 +10,11 @@ html{
 /* below is the background*/
 .banner{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)), url(https://www.connectedwomen.co/wp-content/uploads/2017/03/The-Potential-Of-Connecting-With-People.gif);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 /* above is the background*/
 /*below is the nav bar*/
@@ -70,13 +71,18 @@ body{
     box-sizing: border-box;
 }
 .photos{
-    height: 10vh;
-    text-align: center;
+    width: 14vh;
+    height: 14vh;
+    display: block;
+    margin: 2vh auto 1vh auto;
+    border-radius: 5vh;
+    border: 1px solid white;
 }
 
 .row{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .column{
     width: 22%;
@@ -86,25 +92,35 @@ body{
 .card{
     box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.30);
     margin: 8px;
-    height: 44vh;
+    height: 50vh;
+    border: 1px solid white;
+    background-color: #0000009d ;
 }
 .about-section{
     padding: 5vh;
     text-align: center;
     color: white;
+    font-size: 20px;
 }
 .container{
     padding: 0 16px;
     height: 100%;
     color: white;
+    text-align: center;
+    font-size: 2vh;
 }
 .container::after, .row::after{
     content: "";
     clear: both;
     display: table;
 }
+
+.container h2{
+    font-size: 3vh;
+}
+
 .title{
-    color: grey;
+    color: white;
     font-weight: bold;
     font-size: 20px;
 }
@@ -113,29 +129,27 @@ body{
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: red;
-    background-color: blue;
+    color: white;
+    background-color: #3832f6;
+    border: 2px solid #4cacfa;
     text-align: center;
     cursor: pointer;
     width: 100%;
 }
 .btn:hover{
-    background-color: grey;
+    background-color: darkblue;
 }
 .team{
     text-align: center;
     font-size: 30px;
     color: white;
 }
-.container h2{
-    font-size: 20px;
-}
 /*above is the content*/
 
 /*below is the footer*/
 footer{
     padding: 5vh 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -153,3 +167,36 @@ opacity: 0.75;
     opacity: 0.9;
 }
 /*above is the footer*/
+@media screen and (max-width: 1024px){
+.card{
+    height: 45vh;
+}
+}
+@media screen and (max-width: 768px){
+    .about-section{
+        padding: 1vh;
+    }
+    .column{
+        display: block;
+        width: 37vh;
+    }
+    .card{
+        height: 30vh;
+    }
+    .photos{
+        height: 10vh;
+        width: 10vh;
+        margin: 1vh auto 1vh auto;
+    }
+    .container{
+        font-size: 100%;
+    }
+    .container h2{
+        font-size: 100%;
+    }
+    }
+@media screen and (max-width:390px){
+    .card{
+        height: 33vh;
+    }
+}
