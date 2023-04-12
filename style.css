@@ -321,6 +321,9 @@ opacity: 0.8;
 
 
 /* Contact Page */
+.nothing{
+  display: none;
+}
 .contact-body {
   height: 100%;
   width: 100%;
