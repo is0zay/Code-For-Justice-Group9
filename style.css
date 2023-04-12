@@ -179,7 +179,7 @@ opacity: 0.8;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin: 0 3rem; */
+  margin: 0 1rem; 
   width: 50vw;
 }
 .md-header {
@@ -453,7 +453,7 @@ button:hover {
   .make-difference { 
     flex-direction: column;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 0;
   }
   .make-difference-text {
     width: 100vw;
@@ -464,8 +464,8 @@ button:hover {
   }
   .md-paragraph {
     font-size: .85rem;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 4%;
+    margin-right: 4%;
     
   }
   .make-difference-image {
