@@ -449,7 +449,9 @@ button:hover {
     position: relative;
     height: 10vh;
   }
-  .join-header {font-size: 2rem;}
+  .join-header {
+    font-size: 2rem;
+  }
   .make-difference { 
     flex-direction: column;
     align-items: center;
