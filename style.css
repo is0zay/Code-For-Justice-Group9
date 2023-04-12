@@ -22,6 +22,7 @@ justify-content: space-between;
 }
 
 .logo{
+  display: flex;
 width:13%;
 height:13%x;
 cursor:pointer;
@@ -126,18 +127,17 @@ opacity: 0.8;
     background-position: center;
     }
     .content2{
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      left: 2%;
-      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
       text-align: left;
+      margin-top: 150px;
+      margin-left: 20px;
       color: #fff;
       }
     
     .content2 h1{
-      font-size: 70px;
-      margin-top: 80px;
+      font-size: 60px;
+   
       color: #fff;
       }
       
@@ -153,74 +153,59 @@ opacity: 0.8;
 /* Small screens (phones) */
 @media only screen and (max-width: 600px) {
   .navbar {
-    width: 100%;
-    padding: 10px;
-    flex-direction: column;
-  }
-  .logo {
-    width: 120px;
-    height: 60px;
-  }
-  .navbar ul {
     display: flex;
   }
-  .navbar.active ul {
-    display: flex;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    background: #333;
-    text-align: center;
-    z-index: 999;
-  }
-  .navbar.active ul li {
-    display: block;
-    margin: 10px 0;
-  }
-  .navbar.active ul li a {
+  .navbar ul li a{
+    font-size: 10px;
     color: #fff;
-    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    }
+}
+.content h1{
+  font-size: 50px;
+  margin-top: 80px;
+  color: #fff;
   }
-  .content h1 {
-    font-size: 2.5em;
-    margin-top: 20px;
-  }
-  .content p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-  }
-  button {
-    font-size: 12px;
-    padding: 10px 0;
-    margin: 20px auto;
-  }
-  span {
-    border-radius: 15px;
+  
+  .content p{
+  margin: 20px auto;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
   }
 }
+.content2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 10px;
+  color: #fff;
+  }
+
+.content2 h1{
+  font-size: 40px;
+
+  color: #fff;
+  }
+  
+  .content2 p{
+  margin: 20px auto;
+  font-size: 12px;
+  line-height: 45px;
+  color: #fff;
+  }
+
+  .footer{
+  margin-bottom: -40px;
+    }
 
 /* Medium screens (tablets) */
 @media only screen and (min-width: 601px) and (max-width: 960px) {
-  .logo {
-    width: 150px;
-    height: 75px;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
   }
-  .navbar ul li {
-    margin: 0 10px;
-  }
-  .content h1 {
-    font-size: 4em;
-    margin-top: 100px;
-  }
-  .content p {
-    font-size: 1.5em;
-    line-height: 2em;
-  }
-  button {
-    font-size: 12px;
-    padding: 15px 0;
-    margin: 40px auto;
-  }
- 
 }
