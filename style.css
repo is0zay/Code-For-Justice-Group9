@@ -571,10 +571,10 @@ button:hover {
   }
   .column{
       display: block;
-      width: 37vh;
+      width: 35vh;
   }
   .card{
-      height: 30vh;
+      height: 31vh;
   }
   .photos{
       height: 10vh;
@@ -588,3 +588,8 @@ button:hover {
       font-size: 100%;
   }
 }
+@media screen and (max-width: 390px){
+  .card{
+    height: 37vh;
+  }
+} 
