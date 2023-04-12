@@ -422,86 +422,6 @@ button:hover {
   color: white;
 }
 
-@media (max-width: 510px) {
-  .nav-ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .card{
-    height: 33vh;
-}
-}
-
-@media (max-width: 855px) {
-  .navbar {
-    justify-content: space-around;
-    height: 20vh;
-    flex-direction: column;
-  }
-  .logo {
-    height: 4rem;
-    width: 12rem;
-  }
-  .nav-item {
-    padding-top: 2%;
-  }
-  .blue-button {
-    padding: .25rem;
-  }
-  .join-hero {
-    position: relative;
-    height: 10vh;
-  }
-  .join-header {
-    font-size: 2rem;
-  }
-  .make-difference { 
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-  }
-  .make-difference-text {
-    width: 100vw;
-    align-items: center;
-  }
-  .md-header {
-    font-size: 2rem;
-  }
-  .md-paragraph {
-    font-size: .85rem;
-    margin-left: 4%;
-    margin-right: 4%;
-    
-  }
-  .make-difference-image {
-    justify-content: center;
-    margin-left: 3.5%;
-  }
-
-  /* about us media queries */
-  .about-section{
-    padding: 1vh;
-  }
-  .column{
-      display: block;
-      width: 37vh;
-  }
-  .card{
-      height: 30vh;
-  }
-  .photos{
-      height: 10vh;
-      width: 10vh;
-      margin: 1vh auto 1vh auto;
-  }
-  .container{
-      font-size: 100%;
-  }
-  .container h2{
-      font-size: 100%;
-  }
-}
 
 /* for js popup form */
 
@@ -601,4 +521,92 @@ button:hover {
   font-size: 2.5rem;
   transform: rotate(45deg);
   cursor: pointer;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 390px){
+  .card{
+    height: 37vh;
+  }
+} 
+@media (max-width: 510px) {
+  .nav-ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card{
+    height: 33vh;
+}
+}
+
+@media (max-width: 855px) {
+  .navbar {
+    justify-content: space-around;
+    height: 20vh;
+    flex-direction: column;
+  }
+  .logo {
+    height: 4rem;
+    width: 12rem;
+  }
+  .nav-item {
+    padding-top: 2%;
+  }
+  .blue-button {
+    padding: .25rem;
+  }
+  .join-hero {
+    position: relative;
+    height: 10vh;
+  }
+  .join-header {
+    font-size: 2rem;
+  }
+  .make-difference { 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .make-difference-text {
+    width: 100vw;
+    align-items: center;
+  }
+  .md-header {
+    font-size: 2rem;
+  }
+  .md-paragraph {
+    font-size: .85rem;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+  }
+  .make-difference-image {
+    justify-content: center;
+    margin-left: 3.5%;
+  }
+
+  /* about us media queries */
+  .about-section{
+    padding: 1vh;
+  }
+  .column{
+      display: block;
+      width: 35vh;
+  }
+  .card{
+      height: 31vh;
+  }
+  .photos{
+      height: 10vh;
+      width: 10vh;
+      margin: 1vh auto 1vh auto;
+  }
+  .container{
+      font-size: 100%;
+  }
+  .container h2{
+      font-size: 100%;
+  }
 }
