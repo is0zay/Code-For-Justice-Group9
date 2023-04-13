@@ -9,13 +9,6 @@ font-family: sans-serif;
   height:100vh;
   overflow: scroll;
 }
-
-.home-main {
-  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth1.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
 .nav-header{
   width: 100%;
   top: 0;
@@ -58,6 +51,67 @@ text-decoration: none;
 
 
 
+.blue-button {
+  width: 7rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: .9rem;
+  
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #4cacfa;
+  background: #3832f6;
+  color:#fff;
+  cursor: pointer;
+  position: relative;
+  }
+  
+  
+  
+  .footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .footer .social{
+  text-align: center;
+  padding-bottom: .5rem;
+  color: #fff;
+  }
+  
+  .footer .social a{
+  font-size: 33px;
+  color: inherit;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 12px;
+  opacity: 0.75;
+  }
+  
+  .footer .social a:hover{
+  opacity: 0.9;
+  }
+  
+  .footer ul li a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+  }
+  
+
+
+/* Index Page Styling */
+
+.home-main {
+  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .content{
 width: 95%;
 position: absolute;
@@ -83,132 +137,8 @@ color: #fff;
 
 
 
-
-.blue-button {
-width: 7rem;
-padding: 1rem;
-text-align: center;
-font-size: .9rem;
-
-border-radius: 25px;
-font-weight: bold;
-border: 2px solid #4cacfa;
-background: #3832f6;
-color:#fff;
-cursor: pointer;
-position: relative;
-}
-
-
-
-.footer{
-position: absolute;
-bottom: 0;
-width: 100%;
-text-align: center;
-}
-
-.footer .social{
-text-align: center;
-padding-bottom: .5rem;
-color: #fff;
-}
-
-.footer .social a{
-font-size: 33px;
-color: inherit;
-width: 1rem;
-height: 1rem;
-text-align: center;
-border-radius: 50%;
-margin: 0 12px;
-opacity: 0.75;
-}
-
-.footer .social a:hover{
-opacity: 0.9;
-}
-
-.footer ul li a{
-color: inherit;
-text-decoration: none;
-opacity: 0.8;
-}
-
-
-
-
-/* Join Page  */
-
-.join-main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.506),rgba(0, 0, 0, 0.978)),url(teamwork.avif);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-.join-content {
-  overflow: scroll;
-  margin-bottom: 10%;
-}
-.join-hero {
-  width: 100vw;
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-.join-header {
-  font-size: 4rem;
-  color: #76c5f0;
-}
-
-.make-difference {
-  height: 40vh;
-  width: 100vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #fff;
-  margin-top: 5%;
-  
-}
-
-.make-difference-text {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0.25rem 1rem; 
-  width: 50vw;
-}
-.md-header {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.md-paragraph {
-  font-size: 1rem;
-}
-.md-link {
-  color: #fff;
-}
-.make-difference-image {
-  display: flex;
-  justify-content: center;
-  width: 50vw;
-}
-
-.md-img {
-  width: 90%;
-}
-
-
-
-
 /* About Us page */
 .aboutus-body{
-  width: 100%;
-  height: 100vh;
   background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)), url("aboutusbg.avif");
   background-size: cover;
   background-position: center;
@@ -303,8 +233,6 @@ opacity: 0.8;
 
 /* Statistics page */
 .stats-main {
-  width:100%;
-  height:100vh;
   background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth2.avif);
   background-size: cover;
   background-position: center;
@@ -341,8 +269,6 @@ opacity: 0.8;
 
 /* Contact Page */
 .contact-body {
-  height: 100%;
-  width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(handshake.avif);
   background-size: cover;
   background-position: center;
@@ -350,11 +276,6 @@ opacity: 0.8;
 
 .blue-link {
   color: #3832f6;
-}
-
-html {
-  height: 100%;
-  width: 100%;
 }
 
 .contact-container {
@@ -409,6 +330,7 @@ html {
   text-align: center;
 }
 
+/* code below changes the placeholder font coler to white */
 .form-container ::placeholder {
   color: #fff;
 }
@@ -432,7 +354,72 @@ html {
 }
 
 
-/* for js popup form */
+/* Join Page  */
+
+.join-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.506),rgba(0, 0, 0, 0.978)),url(teamwork.avif);
+  background-size: cover;
+  background-position: center;
+}
+.join-content {
+  overflow: scroll;
+  margin-bottom: 10%;
+}
+.join-hero {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.join-header {
+  font-size: 4rem;
+  color: #76c5f0;
+}
+
+.make-difference {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  margin-top: 5%;
+  
+}
+
+.make-difference-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.25rem 1rem; 
+  width: 50vw;
+}
+.md-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.md-paragraph {
+  font-size: 1rem;
+}
+.md-link {
+  color: #fff;
+}
+.make-difference-image {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
+
+.md-img {
+  width: 90%;
+}
+
+
+
+/* JS Modal Form */
 
 
 .applybtn {
