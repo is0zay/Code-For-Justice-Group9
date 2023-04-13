@@ -305,7 +305,7 @@ opacity: 0.8;
 .stats-main {
   width:100%;
   height:100vh;
-  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth2.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth2.avif);
   background-size: cover;
   background-position: center;
   }
@@ -412,12 +412,15 @@ html {
   text-align: center;
 }
 
+.form-container ::placeholder {
+  color: #fff;
+}
 
 
-button {
+.form-button {
   font-family: "Big Caslon";
-  background-color: white;
-  color: black;
+  background-color: #177db4;
+  color: #fff;
   border: 0.13rem solid blue;
   font-size: 1.3rem;
   padding: 0.75rem 1.3rem;
@@ -426,7 +429,7 @@ button {
 }
 
 
-button:hover {
+.form-button:hover {
   background-color: blue;
   color: white;
 }
@@ -574,7 +577,7 @@ button:hover {
 
   /* Index & Statistics media queries */
   .content2 h1 {
-    font-size: 3;
+    font-size: 3rem;
   }
 
   .content2 p {
