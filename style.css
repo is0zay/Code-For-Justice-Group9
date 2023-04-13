@@ -179,7 +179,7 @@ opacity: 0.8;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 1rem; 
+  margin: 0.25rem 1rem; 
   width: 50vw;
 }
 .md-header {
@@ -188,6 +188,9 @@ opacity: 0.8;
 }
 .md-paragraph {
   font-size: 1rem;
+}
+.md-link {
+  color: #fff;
 }
 .make-difference-image {
   display: flex;
@@ -215,6 +218,9 @@ opacity: 0.8;
 .aboutus-content {
   height: 100%;
   overflow: scroll;
+}
+.mission-text {
+  font-size: 80%;
 }
 .photos{
   width: 14vh;
@@ -322,7 +328,7 @@ opacity: 0.8;
     
     .content2 p{
     margin: 20px auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
     color: #fff;
     }
@@ -425,86 +431,6 @@ button:hover {
   color: white;
 }
 
-@media (max-width: 510px) {
-  .nav-ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .card{
-    height: 33vh;
-}
-}
-
-@media (max-width: 855px) {
-  .navbar {
-    justify-content: space-around;
-    height: 20vh;
-    flex-direction: column;
-  }
-  .logo {
-    height: 4rem;
-    width: 12rem;
-  }
-  .nav-item {
-    padding-top: 2%;
-  }
-  .blue-button {
-    padding: .25rem;
-  }
-  .join-hero {
-    position: relative;
-    height: 10vh;
-  }
-  .join-header {
-    font-size: 2rem;
-  }
-  .make-difference { 
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-  }
-  .make-difference-text {
-    width: 100vw;
-    align-items: center;
-  }
-  .md-header {
-    font-size: 2rem;
-  }
-  .md-paragraph {
-    font-size: .85rem;
-    margin-left: 4%;
-    margin-right: 4%;
-    
-  }
-  .make-difference-image {
-    justify-content: center;
-    margin-left: 3.5%;
-  }
-
-  /* about us media queries */
-  .about-section{
-    padding: 1vh;
-  }
-  .column{
-      display: block;
-      width: 37vh;
-  }
-  .card{
-      height: 30vh;
-  }
-  .photos{
-      height: 10vh;
-      width: 10vh;
-      margin: 1vh auto 1vh auto;
-  }
-  .container{
-      font-size: 100%;
-  }
-  .container h2{
-      font-size: 100%;
-  }
-}
 
 /* for js popup form */
 
@@ -520,8 +446,9 @@ button:hover {
   height: 8%;
   text-align: center;
   font-weight: 900;
+  text-decoration: none;
 }
-.apply-btn:hover {
+.applybtn:hover {
   color: #066394;
   background-color: #daebf4;
   cursor: pointer;
@@ -542,7 +469,7 @@ button:hover {
 }
 
 .join-modal {
-  height: 50vh;
+  height: 45vh;
   width: 70vh;
   background-color: #fff;
   border-radius: 3px;
@@ -604,4 +531,109 @@ button:hover {
   font-size: 2.5rem;
   transform: rotate(45deg);
   cursor: pointer;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 390px){
+  .card{
+    height: 37vh;
+  }
+} 
+@media (max-width: 510px) {
+  .nav-ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content2 h1 {
+    font-size: 2.5rem;
+  }
+  
+  .card{
+    height: 33vh;
+}
+}
+
+@media (max-width: 855px) {
+  .navbar {
+    justify-content: space-around;
+    height: 20vh;
+    flex-direction: column;
+  }
+  .logo {
+    height: 4rem;
+    width: 12rem;
+  }
+  .nav-item {
+    padding-top: 2%;
+  }
+  .blue-button {
+    padding: .25rem;
+  }
+
+  /* Index & Statistics media queries */
+  .content2 h1 {
+    font-size: 3;
+  }
+
+  .content2 p {
+    font-size: .75rem;
+  }
+
+  /* Join Media Queries */
+  .join-hero {
+    position: relative;
+    height: 10vh;
+  }
+  .join-header {
+    font-size: 2rem;
+  }
+  .make-difference { 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .make-difference-text {
+    width: 100vw;
+    align-items: center;
+  }
+  .md-header {
+    font-size: 2rem;
+  }
+  .md-paragraph {
+    font-size: .85rem;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+  }
+  .make-difference-image {
+    justify-content: center;
+    margin-left: 3.5%;
+  }
+  
+
+  /* about us media queries */
+  .about-section{
+    padding: 1vh;
+  }
+  .column{
+      display: block;
+      width: 35vh;
+  }
+  .card{
+      height: 31vh;
+  }
+
+  .photos{
+      height: 10vh;
+      width: 10vh;
+      margin: 1vh auto 1vh auto;
+  }
+  .container{
+      font-size: 100%;
+  }
+  .container h2{
+      font-size: 100%;
+  }
 }
