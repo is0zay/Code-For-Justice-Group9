@@ -107,7 +107,7 @@ text-decoration: none;
 /* Index Page Styling */
 
 .home-main {
-  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth1.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(/images/mentalhealth1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -139,7 +139,7 @@ color: #fff;
 
 /* About Us page */
 .aboutus-body{
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)), url("aboutusbg.avif");
+  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)), url("/images/aboutusbg.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -233,7 +233,7 @@ color: #fff;
 
 /* Statistics page */
 .stats-main {
-  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(mentalhealth2.avif);
+  background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(/images/mentalhealth2.avif);
   background-size: cover;
   background-position: center;
   }
@@ -269,7 +269,7 @@ color: #fff;
 
 /* Contact Page */
 .contact-body {
-  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(handshake.avif);
+  background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.75)),url(/images/handshake.avif);
   background-size: cover;
   background-position: center;
 }
@@ -357,7 +357,7 @@ color: #fff;
 /* Join Page  */
 
 .join-main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.506),rgba(0, 0, 0, 0.978)),url(teamwork.avif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.506),rgba(0, 0, 0, 0.978)),url(/images/teamwork.avif);
   background-size: cover;
   background-position: center;
 }
